@@ -1,0 +1,79 @@
+/* General reset */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+  }
+  
+  /* Header styling */
+  .header {
+    text-align: center;
+    padding: 20px;
+    background-color: #004aad;
+    color: white;
+  }
+  
+  .logo {
+    width: 60px;
+    height: 60px;
+    display: inline-block;
+    vertical-align: middle;
+  }
+  
+  .header h1 {
+    display: inline-block;
+    margin: 0;
+    margin-left: 15px;
+    font-size: 24px;
+    vertical-align: middle;
+  }
+  
+  /* Beds Section */
+  .beds-section {
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .beds-section h2 {
+    margin-bottom: 20px;
+    color: #004aad;
+  }
+  
+  .bed-status {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .bed-info {
+    text-align: left;
+  }
+  
+  .bed-info p {
+    margin: 10px 0;
+    font-size: 16px;
+  }
+  
+  .bed-icon img {
+    width: 100px;
+    height: auto;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 600px) {
+    .bed-status {
+      flex-direction: column;
+    }
+  
+    .bed-icon img {
+      margin-top: 20px;
+    }
+  }
+  

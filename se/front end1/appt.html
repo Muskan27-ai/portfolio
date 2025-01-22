@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Appointment Booking</title>
+  <link rel="stylesheet" href="appt.css">
+</head>
+<body>
+  <div class="container">
+    <header class="header">
+      <h1>Book Your Appointment</h1>
+    </header>
+
+    <section class="appointment-form">
+      <h2>Book an Appointment</h2>
+      <form id="appointmentForm">
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" name="name" placeholder="Enter your name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+        <label for="date">Appointment Date:</label>
+        <input type="date" id="date" name="date" required>
+
+        <label for="time">Appointment Time:</label>
+        <input type="time" id="time" name="time" required>
+
+        <label for="doctor">Select Doctor:</label>
+        <select id="doctor" name="doctor">
+          <option value="Dr. John Smith">Dr. John Smith</option>
+          <option value="Dr. Jane Doe">Dr. Jane Doe</option>
+          <option value="Dr. Emily Brown">Dr. Emily Brown</option>
+        </select>
+
+        <button type="submit" class="btn">Book Appointment</button>
+      </form>
+    </section>
+
+    <section class="appointment-list">
+      <h2>Your Appointments</h2>
+      <ul id="appointments">
+        <!-- Dynamic content will go here -->
+      </ul>
+    </section>
+  </div>
+
+  <script src="appt.js"></script>
+</body>
+</html>
